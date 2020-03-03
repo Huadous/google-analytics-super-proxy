@@ -33,14 +33,17 @@ __author__ = 'pete.frisella@gmail.com (Pete Frisella)'
 
 # OAuth 2.0 Client Settings
 AUTH_CONFIG = {
-    'OAUTH_CLIENT_ID': 'REPLACE THIS WITH YOUR CLIENT ID',
-    'OAUTH_CLIENT_SECRET': 'REPLACE THIS WITH YOUR CLIENT SECRET',
+    'OAUTH_CLIENT_ID': '97789014860-238paflit6l3rfh66gpcstdo74169p1r.apps.googleusercontent.com',
+    'OAUTH_CLIENT_SECRET': 'EFvr3E8ZfIirCc6I97pfbBk_',
 
     # E.g. Local Dev Env on port 8080: http://localhost:8080
     # E.g. Hosted on App Engine: https://your-application-id.appspot.com
     'OAUTH_REDIRECT_URI': '%s%s' % (
-        'https://REPLACE_THIS_WITH_YOUR_APPLICATION_NAME.appspot.com OR http://localhost:8080',
-        '/admin/auth')
+        # 'https://REPLACE_THIS_WITH_YOUR_APPLICATION_NAME.appspot.com OR http://localhost:8080',
+        # '/admin/auth'
+        'https://huadous-blog.appspot.com',
+        '/admin/auth'
+        )
 }
 
 # XSRF Settings
